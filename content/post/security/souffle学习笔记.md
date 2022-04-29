@@ -7,7 +7,7 @@ keywords: []
 description: ""
 tags: []
 categories: []
-typora-root-url: ../../static
+typora-root-url: ../../../static
 author: "P1n93r"
 
 # You can also close(false) or open(true) something for this content.
@@ -103,7 +103,7 @@ Audit(person) :- Age(person,age),age = 18.
 brew install --HEAD souffle-lang/souffle/souffle
 ```
 
-![Untitled](/../../static/media/Untitled.png)
+![Untitled](/media/Untitled.png)
 
 # Souffle的一个简单例子
 
@@ -252,7 +252,7 @@ c	d
 
 给定一棵树（具有特定根节点的非循环有向图），目标是找出哪些节点位于同一级别（同代）。
 
-![Untitled](/../../static/media/Untitled 1.png)
+![Untitled](/media/Untitled 1.png)
 
 可以很直观的看到，节点 `b` 和 `c` 是同代， `e` 和 `g` 也是如此；使用datalog解决这个问题，可以编写如下dl（解释在注释中了）：
 
@@ -325,11 +325,11 @@ a	a
 - 如果v在p点有定值d，存在一条从p到q的路径，在这个路径上没有其他的定值点，则称v的定值d到达（reaching）p；
 - 如果从p到q的路径上有其他对于v的定值，我们就说v的定值d被kill掉了；
 
-![Untitled](/../../static/media/Untitled 2.png)
+![Untitled](/media/Untitled 2.png)
 
 例如如下的CFG（控制流图）：
 
-![Untitled](/../../static/media/Untitled 3.png)
+![Untitled](/media/Untitled 3.png)
 
 此时我们可以编写如下dl进行定值可达分析：
 
@@ -418,11 +418,11 @@ souffle支持C预处理器（比如定义宏），例如：
 
 为了减少代码编写工作量，可以使用在规则中编写多个head，如下所示，左边是使用了语法糖的情况，右边是没有使用语法糖的情况：
 
-![Untitled](/../../static/media/Untitled 4.png)
+![Untitled](/media/Untitled 4.png)
 
 类似的，也可以在规则体中使用析取（disjunction），如下所示，左边是使用了语法糖的情况，右边是没有使用语法糖的情况（规则推导中的封号代表逻辑或）：
 
-![Untitled](/../../static/media/Untitled 5.png)
+![Untitled](/media/Untitled 5.png)
 
 # 属性的类型（Type system for attributes）
 
@@ -605,7 +605,7 @@ A([4,5]).
 
 对于这个这个例子，记录的内部结构如下：
 
-![Untitled](/../../static/media/Untitled 6.png)
+![Untitled](/media/Untitled 6.png)
 
 ## 递归记录（Recursive records）
 
@@ -636,4 +636,4 @@ P1n93r@bogon example % cat Flatten.csv
 
 此时这个内部结构如下所示：
 
-![Untitled](/../../static/media/Untitled 7.png)
+![Untitled](/media/Untitled 7.png)

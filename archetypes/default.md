@@ -7,7 +7,7 @@ keywords: []
 description: ""
 tags: []
 categories: []
-typora-root-url: ../../static
+typora-root-url: ../../../static
 author: "P1n93r"
 
 # You can also close(false) or open(true) something for this content.
